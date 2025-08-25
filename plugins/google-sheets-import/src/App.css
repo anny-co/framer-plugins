@@ -1,0 +1,41 @@
+.gs-form,
+.gs-mapping {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    text-align: left;
+}
+
+.gs-form label,
+.gs-mapping label {
+    font-weight: 500;
+}
+
+.gs-form input {
+    width: 100%;
+}
+
+.gs-mapping .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.gs-mapping .row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.gs-mapping select {
+    flex: 1;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
