@@ -1,0 +1,6 @@
+{
+    "id": "ab12cd",
+    "name": "Google Sheets Import",
+    "modes": ["collection"],
+    "icon": "/icon.svg"
+}
