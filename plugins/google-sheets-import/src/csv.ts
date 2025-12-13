@@ -133,6 +133,10 @@ function getFieldDataEntryInputForField(
             return { type: field.type, value: value ? value.trim() : null, alt: altText ?? undefined }
         }
 
+        //  case "gallery: {
+        // // placeholder: would you be willing to add this or maybe I can send a PR to do it?
+        // }
+
         case "number": {
             const number = Number(value)
             if (Number.isNaN(number)) {
